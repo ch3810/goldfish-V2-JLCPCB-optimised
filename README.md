@@ -1,7 +1,16 @@
-# Goldfish v2
+# Goldfish V2 - Orderable fully assembled via JLCPCB with 4L and 2L versions.
 
-**Note: This branch contains the design for Goldfish v2. The Goldfish v1 design files are available in the [v1 branch].**
+**Note: This branch contains the design for Goldfish v2. It has been modified from the original design (Credit: Lucas Jansen) to allow for compatible parts in the LCSC/JLCPCB library. 
+Using the BOM, it will be possible to get a fully assembled design. There are 2 project files which are based on the same core kicad_sch file.** 
 
+**To open and work on the 2L version, open goldfish_2L.kicad_pro.**  
+**To work on the 4L version, open goldfish.kicad_pro.**
+
+**Only open the associated kicad_pcb file once the project is opened.** 
+
+**The 4L version is highly recommended as the cost is almost the same and the signal integrity will be higher due to the full internal planes. The Goldfish v1 design files are available in the [v1 branch].**
+
+---
 Goldfish is a Pro Micro compatible microcontroller board designed for use in mechanical keyboards. It is based on the same Atmel ATMega32U4 chip and is programmable using the Arduino IDE or a keyboard specific firmware such as TMK or QMK. Of course it is perfectly usable for any other electronics projects too, not just keyboards.
 
 ![preview]
